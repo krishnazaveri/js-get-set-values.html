@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>get set values</title>
+</head>
+<body>
+
+    <h1 id="h">Heading</h1>
+   
+
+    <input type="text" id="inp" >
+
+    <script>
+        let inp_tag= document.getElementById("inp");
+        let h1_tag=document.getElementById("h");
+
+        //console.log(h1_tag);
+
+
+        h1_tag.innerHTML=inp_tag.value;
+    </script>
+    
+</body>
+</html>
